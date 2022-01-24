@@ -1,1 +1,1 @@
-aws ec2 run-instances --image-id ami-0d527b8c289b4af7f --instance-type t2.micro --key-name my-first-instance --security-groups launch-wizard-1 --tag-specifications "ResourceType=instance,Tags=[{Key=Name,Value=Apache+Jenkins}]" --user-data file://jenkins-apache_user-data.sh
+aws ec2 run-instances --image-id ami-0d527b8c289b4af7f --instance-type t2.micro --key-name my-first-instance --security-groups launch-wizard-1 --tag-specifications "ResourceType=instance,Tags=[{Key=Name,Value=Apache+Jenkins}]" --user-data file://jenkins-python-docker-apache_UD.sh
